@@ -52,8 +52,8 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("COLLECT后端开发接口文档")
-                .description("**请忽略basic-error-controller**")
-                .version("6.5")
+                .description("**请忽略basic-error-controller**\n测试github部署")
+                .version("7.5")
                 .build();
     }
 }

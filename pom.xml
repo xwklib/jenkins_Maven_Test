@@ -6,7 +6,7 @@
 
     <groupId>com.njtech</groupId>
     <artifactId>COLLECT</artifactId>
-    <version>7.0-SNAPSHOT</version>
+    <version>7.5-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

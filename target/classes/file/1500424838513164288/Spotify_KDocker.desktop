@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Spotify_KDocker
+GenericName=Music Player
+Icon=spotify-client
+TryExec=spotify
+Exec=spotify %U
+Terminal=false
+MimeType=x-scheme-handler/spotify;
+Categories=Music;Player;;
+StartupWMClass=spotify
+
