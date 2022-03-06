@@ -1,0 +1,33 @@
+server:
+  port: 9999
+  tomcat:
+    basedir: ../data
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: xwk
+    password: 218352002xwk
+    url: jdbc:mysql://1.116.83.75:3306/se3?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+  thymeleaf:
+    cache: false #关闭缓存
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: -1
+      max-request-size: -1
+#  main:
+#    allow-bean-definition-overriding=true:mybatis:
+  type-aliases-package: com.njtech.entity
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments: true
+#  params: count=countSql
+
+logging:
+  file: log/my.log
+#cors:
+#  allowed:
+#    origin=http://1.116.83.75:9999, http://localhost:9999

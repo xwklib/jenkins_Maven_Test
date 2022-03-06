@@ -1,0 +1,30 @@
+2022-03-06 18:52:14.066  INFO 56833 --- [main] com.njtech.NjtechApplication             : Starting NjtechApplication on ubuntu with PID 56833 (started by xwk in /home/xwk/Desktop/大三下课程/软工3/Collect_Backend)
+2022-03-06 18:52:14.075  INFO 56833 --- [main] com.njtech.NjtechApplication             : No active profile set, falling back to default profiles: default
+2022-03-06 18:52:15.144  WARN 56833 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.njtech]' package. Please check your configuration.
+2022-03-06 18:52:15.408  INFO 56833 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$72647387] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-06 18:52:15.804  INFO 56833 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-03-06 18:52:15.830  INFO 56833 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-06 18:52:15.831  INFO 56833 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2022-03-06 18:52:15.841  INFO 56833 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+2022-03-06 18:52:15.941  INFO 56833 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-06 18:52:15.942  INFO 56833 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1811 ms
+2022-03-06 18:52:15.979  INFO 56833 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2022-03-06 18:52:15.984  INFO 56833 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-03-06 18:52:15.984  INFO 56833 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-03-06 18:52:15.984  INFO 56833 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2022-03-06 18:52:15.984  INFO 56833 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2022-03-06 18:52:16.938  INFO 56833 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-03-06 18:52:17.094  INFO 56833 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-06 18:52:17.317  INFO 56833 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-06 18:52:17.339  INFO 56833 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-06 18:52:17.364  INFO 56833 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-06 18:52:17.627  INFO 56833 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2022-03-06 18:52:17.629  INFO 56833 --- [main] com.njtech.NjtechApplication             : Started NjtechApplication in 3.993 seconds (JVM running for 4.415)
+2022-03-06 18:52:50.417  INFO 56833 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-06 18:52:50.417  INFO 56833 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-06 18:52:50.424  INFO 56833 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-03-06 18:53:30.334  INFO 56833 --- [http-nio-9999-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-06 18:53:30.593  INFO 56833 --- [http-nio-9999-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-06 18:56:10.826  INFO 56833 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-06 18:56:10.830  INFO 56833 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-06 18:56:10.839  INFO 56833 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
